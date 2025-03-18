@@ -4,7 +4,7 @@
 ![alt text](Capture.PNG)
 
 
-##Features
+## Features
 
 - Users can watch multiple tech videos in one app.
 
