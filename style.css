@@ -57,37 +57,36 @@ h2{
 
 @media(max-width:768px){
     .video-cards{
-        display:grid;
-        grid-template-column:1fr
-         padding:15px
+        grid-template-columns:1fr;
+         padding:15px;
          gap:15px;
+        }
     .video-card{
         display: flex;
         flex-direction: column;
         align-items: center;
         
     }
-    }
+    
     h2{
         white-space:nowrap;
         overflow: hidden;
-        text overflow:ellipsis
+        text-overflow:ellipsis;
 
     }
     .video-card img{
         object-fit: cover;
-
+        height:150px;
+        width: 100%;
     }
     p{
         overflow:hidden ;
     }
-
 
     #searchInput{
         width:100%;
         font-size: 14px;
         max-width: 300px;
         padding: 8px 12px;
-    
     }
 }
