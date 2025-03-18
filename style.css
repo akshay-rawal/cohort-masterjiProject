@@ -57,14 +57,37 @@ h2{
 
 @media(max-width:768px){
     .video-cards{
-        grid-template-column:repeat(auto-fit, minmax(150px, 1fr));
+        display:grid;
+        grid-template-column:1fr
          padding:15px
          gap:15px;
+    .video-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    }
+    h2{
+        white-space:nowrap;
+        overflow: hidden;
+        text overflow:ellipsis
+
+    }
+    .video-card img{
+        object-fit: cover;
+
+    }
+    p{
+        overflow:hidden ;
     }
 
-    #searchInput{
-        width:80%;
-        font-size: 14px;
 
+    #searchInput{
+        width:100%;
+        font-size: 14px;
+        max-width: 300px;
+        padding: 8px 12px;
+    
     }
 }
